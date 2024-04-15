@@ -9,7 +9,7 @@ class Solution {
                 int j = n * i;
                 if(j % 6 == 0){
                     answer = j / 6;
-                    break;
+                    break; 
                 }
                 i++;
             }
