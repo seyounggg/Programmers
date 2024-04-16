@@ -7,7 +7,7 @@ class Solution {
           answer = (int)(price * 0.9);
         } else if(price >= 100000){
           answer = (int)(price * 0.95);
-        } else if(price < 100000){
+        } else {
             answer = price;
         }
         return answer;
