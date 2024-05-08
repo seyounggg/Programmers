@@ -7,12 +7,11 @@ class Solution {
         for(int i = 0; i < s.length; i++){
             for(int j = 0; j < m.length; j++){
                 if(m[j].equals(s[i])){
-                    answer[i] = (char) (j+'a');
+                    answer[i] = (char)('a'+j);
                     break;
                 }
             }
         }
-
         return new String(answer);
     }
 }
