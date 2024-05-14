@@ -9,8 +9,7 @@ class Solution {
                     answer[i] = numbers[i-1];
                 }
             }
-        }
-        if(direction.equals("left")){
+        } else {
             for(int i = 0; i < numbers.length; i++){
                 if(i == numbers.length-1){
                     answer[i] = numbers[0];
