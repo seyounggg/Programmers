@@ -10,15 +10,6 @@ class Solution {
             }
         }
         
-        Iterator<Integer> iterator = hashSet.iterator();
-        int[] answer = new int[hashSet.size()];
-        int i = 0;
-        while(iterator.hasNext()){
-            answer[i] = iterator.next();
-            i++;
-        }
-        
-        answer = Arrays.stream(answer).sorted().toArray();
-        return answer;
+        return hashSet.stream().mapToInt(Integer::intValue).sorted().toArray();
     }
 }
