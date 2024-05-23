@@ -7,7 +7,7 @@ class Solution {
         
         for(int i : array){
             if(i == 3 || i == 6 || i ==9){
-                answer++;
+                answer++; 
             }
         }
         return answer; 
