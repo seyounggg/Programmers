@@ -10,6 +10,6 @@ class Solution {
                 answer++;
             }
         }
-        return answer;
+        return answer; 
     }
 }
